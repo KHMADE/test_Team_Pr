@@ -1,0 +1,9 @@
+﻿/* Main.css */
+
+.wp-post-image:hover {
+  opacity: 0.75;
+  transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -webkit-transition: all 0.2s linear; }
+
