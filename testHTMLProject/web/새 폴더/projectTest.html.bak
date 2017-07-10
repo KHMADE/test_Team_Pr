@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="ko">
+ <head>
+  <meta charset="UTF-8">
+  <title>프로젝트 테스트</title>
+  	<link rel="stylesheet" href="css/project.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+	
+
+ </head>
+ <body>
+	 <header>
+		 <div id="titlebg">
+			 <h1 id="made">마데</h1>
+		 </div>
+		 <hr>
+			
+			<ul class="menu">
+				<li><a href="#">home </a></li>
+				<li><a href="#">공지사항</a>
+					<ul>
+						<li><a href="#">회사소개</a></li>
+						<li><a href="#">오시는길</a></li>
+					</ul>
+				</li>
+				<li><a href="#">디자인</a>
+					<ul>
+						<li><a href="#">의자</a></li>
+						<li><a href="#">테이블</a></li>
+						<li><a href="#">완제품</a></li>
+					</ul>
+				</li>
+				<li><a href="#">부  품</a>
+					<ul>
+						<li><a href="#">재료</a></li>
+						<li><a href="#">제작용도구</a></li>
+						<li><a href="#">완제품</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Event</a></li>
+				
+			</ul>
+			<ul class="nav nav-pills nav-stacked">
+			  <li role="presentation" class="active"><a href="#">Home</a></li>
+			  <li role="presentation"><a href="#">Profile</a></li>
+			  <li role="presentation"><a href="#">Messages</a></li>
+			</ul>
+			<button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">Large modal</button>
+
+<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      ...
+    </div>
+  </div>
+</div>
+
+<!-- Small modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-sm">Small modal</button>
+
+<div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      ...
+    </div>
+  </div>
+</div>
+	 </header> 
+ </body>
+</html>

@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="ko">
+ <head>
+<script src="http://code.jquery.com/jquery-1.11.1.min.js">
+
+</script>
+ <script src="js/project.js">
+
+ </script>
+  <meta charset="UTF-8">
+
+  <title>회원가입페이지</title>
+	<link href="css/project2.css" rel="stylesheet">
+ </head>
+ <body>
+	<header>
+	<p id="bar">회원가입</p>
+	<p id="barSub">MADE 가입하기</p>
+	</header>
+
+
+
+<div class="user" id="user1">
+	
+	<label style="text-align:center;">대표 이미지</label><br>
+
+	
+	
+	<img id="img_preview" style="display:none; border:1px solid black;"/><br />
+
+	<input type="file" id="input_file" />
+
+	
+	
+
+
+
+	<div id="userid">
+	<label id="idlabel">아이디</label><br>
+	<input type="text" name="id" id="idtext" placeholder="아이디"> <input type="button" value="중복확인" onclick=""><br>
+	</div>
+	
+	<div>
+	<label>비밀번호</label></br>
+	<input type="text" name="pw" placeholder="비밀번호"></br>
+	</div>
+	<div>
+	<label>비밀번호확인</label><br>
+	<input type="text" name="pw2" placeholder="비밀번호재입력"></br>
+	</div>
+	<div>
+	<label>이름</label></br>
+	<input type="text" name="username" placeholder="이름"></br>
+	</div>
+	<div>
+	<label>성별</label></br>
+	남<input type="radio" name="gender" value="0">&nbsp;&nbsp; 여<input type="radio" name="gender" value="1"></br>
+	</div>
+	<div>
+	<label>생년월일</label></br>
+	<select name="year">
+		<option value="1989">1989
+		<option value="1990" selected>1990
+		<option value="1991">1991
+		<option value="1992">1992
+		<option value="1993">1993
+		<option value="1994">1994
+		<option value="1995">1995
+		<option value="1996">1996
+		<option value="1997">1997
+		<option value="1998">1998
+		<option value="1999">1999
+		<option value="2000">2000
+	</select>
+	<select name="month">
+		<option value="1" selected>1
+		<option value="2">2
+		<option value="3">3
+		<option value="4">4
+		<option value="5">5
+		<option value="6">6
+		<option value="7">7
+		<option value="8">8
+		<option value="9">9
+		<option value="10">10
+		<option value="11">11
+		<option value="12">12
+
+	</select>
+	<select name="">
+		<option value="1" selected>1
+		<option value="2">2
+		<option value="3">3
+		<option value="4">4
+		<option value="5">5
+		<option value="6">6
+		<option value="7">7
+		<option value="8">8
+		<option value="9">9
+		<option value="10">10
+		<option value="11">11
+		<option value="12">12
+		<option value="13">13
+		<option value="14">14
+		<option value="15">15
+		<option value="16">16
+		<option value="17">17
+		<option value="18">18
+		<option value="19">19
+		<option value="20">20
+		<option value="21">21
+		<option value="22">22
+		<option value="23">23
+		<option value="24">24
+		<option value="25">25
+		<option value="26">26
+		<option value="27">27
+		<option value="28">28
+		<option value="29">29
+		<option value="30">30
+		<option value="31">31
+
+	</select>
+	</div>
+
+	<div>
+	<label>연락처</label></br><input type="text" name="phone" placeholder="'-'을 빼고 입력">
+	</div>
+
+</div>
+	
+	</div>
+	<div id="buttonTag">
+		
+	<a href="#" onclick="alert('가입을 환영합니다.');" ><input type="submit" value="가입하기" id="button"></a>
+	<div>
+	
+ </body>
+</html>
