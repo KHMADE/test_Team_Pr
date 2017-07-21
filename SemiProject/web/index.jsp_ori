@@ -1,0 +1,38 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8" import="java.util.*, member.model.vo.*"%>
+<% Member member = (Member)session.getAttribute("member"); %>
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>로그인 페이지</title>
+</head>
+<body>
+<% if(member == null) { %>
+<h1>세번째 도전</h1>
+<form action="login" method="post">
+<table>
+	<tr>
+		<td>아이디 : </td>
+		<td><input type="text" name="id"></td>
+	</tr>
+	<tr>
+		<td>비번 : </td>
+		<td><input type="password" name="pwd">
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2"><input type="submit" value="로그인"></td>
+	</tr>
+</table>
+</form>
+<% } else { %>
+<table>
+	<tr>
+		<td>환영합니다. <%= member.getName() %>님!!!!</td>
+		<td><a href="logout">로그아웃</a></td>
+	</tr>
+</table>
+<% } %>
+</body>
+</html>
